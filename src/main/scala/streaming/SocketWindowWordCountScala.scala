@@ -9,7 +9,7 @@ import org.apache.flink.streaming.api.windowing.time.Time
  *
  * 每隔1秒统计最近2秒内的数据，打印到控制台
  *
- * nc -l 9000
+ * IDEA调试时，先运行nc -l 9000，再启动程序
  */
 object SocketWindowWordCountScala {
 
