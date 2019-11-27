@@ -22,6 +22,8 @@ public class BatchWordCountJava {
         counts.writeAsCsv(outPath,"\n"," ").setParallelism(1);
         env.execute("batch word count");
 
+        System.out.println("批处理词频统计结束");
+
     }
 
 
