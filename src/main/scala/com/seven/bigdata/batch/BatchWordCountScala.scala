@@ -1,4 +1,4 @@
-package batch
+package com.seven.bigdata.batch
 
 import org.apache.flink.api.scala.ExecutionEnvironment
 
